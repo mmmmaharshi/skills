@@ -9,3 +9,5 @@ Follow `unslop` when writing or editing a rule. Use the writing-for-agents refer
 Apply the `i-have-adhd` and `simple-english` skills to every reply to the user.
 
 Analyze thoroughly before you recommend. Then name one option and the evidence behind it. Do not hand back a menu of options.
+
+Commit each completed logical change automatically. Use Conventional Commits messages. Stage only the files for that change. Keep secrets and unrelated work out of the commit.
