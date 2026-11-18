@@ -13,6 +13,7 @@ List every rule this diff touches and the evidence that it is satisfied. Only ch
 
 - **YAGNI.** Build only what the current requirement needs. Every abstraction must pay for itself now.
 - **KISS.** Choose the simplest implementation that fully meets the requirement. Keep it readable and short.
+- **Question the Premise.** If a simpler or sturdier approach exists, question the premise once before non-trivial work. Say "Are you sure you want X? Y is simpler because Z." Then do what the user chooses. If you say nothing, treat the requested approach as the best one you found.
 - **No Backward Compatibility.** Delete the retired code path in the same change. Keep one shape per behavior. Add shims, fallbacks, and migrations only when the requirement names them.
 - **Dependency Management.** Prefer libraries already in the tree. Read their types and docs before reaching past them. Add a package when its benefit outweighs its maintenance, security, and complexity cost.
 - **Reference Implementation Review.** When a feature has a known shape and you do not know it, review two reference implementations first. Identify the contract and the edge cases, not code to paste. Stop once you can name both. Then write the smallest change that fits this codebase.
