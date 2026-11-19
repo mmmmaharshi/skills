@@ -4,6 +4,8 @@ Run these steps from the project root. The project must have a Git repository.
 
 ## 1. Install the Matt Pocock skills
 
+This step is required for every project. Complete it before the other steps.
+
 1. `bunx skills@latest add mattpocock/skills`
 2. Run `/setup-matt-pocock-skills` in the agent session.
 3. Confirm the skill appears in the available skills list.
