@@ -33,3 +33,15 @@ Add this line to `AGENTS.md`: Follow [coding-standards](https://github.com/mmmma
 - The agent lists both installed skills.
 - `git twig --version` reports 0.5.0 or newer.
 - `AGENTS.md` contains the ast-grep prompt and the coding standards line.
+
+## Setup status
+
+Change Pending to Done after each check passes.
+
+| Component | Status | Verification |
+| --- | --- | --- |
+| Matt Pocock skills | Pending | Skill appears in the available skills list. |
+| ast-grep skill | Pending | Skill appears in the available skills list. |
+| Twig | Pending | `git twig --version` reports 0.5.0 or newer. |
+| ast-grep prompt in `AGENTS.md` | Pending | The line is present. |
+| Coding standards line in `AGENTS.md` | Pending | The line is present. |
