@@ -13,3 +13,5 @@ Analyze thoroughly before you recommend. Then name one option and the evidence b
 Commit each completed logical change as an atomic commit. Use Conventional Commits messages. Stage only the files for that change. Keep secrets and unrelated work out of the commit.
 
 After any change to `skills/coding-standards/SKILL.md`, copy the updated file to `C:\Users\manoh\.agents\skills\coding-standards\SKILL.md`. Compare the two files before you finish.
+
+Exercise lateral thinking when the obvious approach fails. Question assumptions and try a different angle before you repeat the same fix.
