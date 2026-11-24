@@ -21,6 +21,7 @@ List every rule this diff touches and the evidence that it is satisfied. Only ch
 - **Separation of Concerns (SRP).** Give each module, function, and component one clear responsibility. Keep unrelated concerns in separate places.
 - **Rationale Comments.** Comment the constraint, trade-off, or non-obvious decision the code cannot show. The code carries the what. Write comments, commit messages, and pull request descriptions for the maintainer. State the decision and its reason, not the conversation that produced it. Keep prompts, model names, and failed attempts out of those documents. An architecture decision record can list alternatives considered.
 - **Atomic Commits.** One logical change per commit. No unrelated refactoring or formatting.
+- **Artifact Hygiene.** Commit only source, config, and intentional assets. Keep build outputs, archives, model weights, and profiling dumps out of commits. If the task names extension icons, static web assets, or documentation media, track them.
 - **Conventional Commits.** Follow the Conventional Commits specification.
 - **Behavioral Testing.** Test observable behavior. Give each test a failure reason no sibling test shares. When behavior follows an invariant or a state machine, use property-based or model-based tests. Pair the test with an oracle that can fail. Show a past bug and the property that fails on that bug.
 - **No Change Detector Tests.** A test fails when behavior breaks, not when code moves. Assert outputs, not internal calls, their order, or snapshots of internals.
