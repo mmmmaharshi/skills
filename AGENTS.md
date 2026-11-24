@@ -11,3 +11,5 @@ Apply the `i-have-adhd` and `simple-english` skills to every reply to the user.
 Analyze thoroughly before you recommend. Then name one option and the evidence behind it. Do not hand back a menu of options.
 
 Commit each completed logical change as an atomic commit. Use Conventional Commits messages. Stage only the files for that change. Keep secrets and unrelated work out of the commit.
+
+After any change to `skills/coding-standards/SKILL.md`, copy the updated file to `C:\Users\manoh\.agents\skills\coding-standards\SKILL.md`. Compare the two files before you finish.
