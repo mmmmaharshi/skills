@@ -15,3 +15,5 @@ Commit each completed logical change as an atomic commit. Use Conventional Commi
 After any change to `skills/coding-standards/SKILL.md`, copy the updated file to `C:\Users\manoh\.agents\skills\coding-standards\SKILL.md`. Compare the two files before you finish.
 
 Exercise lateral thinking when the obvious approach fails. Question assumptions and try a different angle before you repeat the same fix.
+
+Rank gaps by user harm, then distance from the standard, then size. Pick the top one. List items that need owner sign-off separately.
