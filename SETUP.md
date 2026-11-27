@@ -6,14 +6,14 @@ Run these steps from the project root. The project must have a Git repository.
 
 This step is required for every project. Complete it before the other steps.
 
-1. `bunx skills@latest add mattpocock/skills`
+1. `bunx skills@latest add mattpocock/skills --skill '*' --agent '*' -y`
 2. Run `/setup-matt-pocock-skills` in the agent session.
 3. Confirm the skill appears in the available skills list.
 
 ## 2. Install the ast-grep skill
 
 1. Read https://ast-grep.github.io/advanced/prompting.md
-2. `npx skills add ast-grep/agent-skill`
+2. `npx skills add ast-grep/agent-skill --skill '*' --agent '*' -y`
 3. Add this line to `AGENTS.md`: For any code search that needs syntax or structure, use ast-grep. Use text search only when the user asks for it.
 4. Confirm the skill appears in the available skills list.
 
@@ -26,7 +26,7 @@ This step is required for every project. Complete it before the other steps.
 
 ## 4. Add the coding standards rule
 
-Add this line to `AGENTS.md`: Follow [coding-standards](https://github.com/mmmmaharshi/skills) on every code change. Install it with `bunx skills@latest add mmmmaharshi/skills --skill coding-standards`.
+Add this line to `AGENTS.md`: Follow [coding-standards](https://github.com/mmmmaharshi/skills) on every code change. Install it with `bunx skills@latest add mmmmaharshi/skills --skill coding-standards --agent '*' -y`.
 
 ## Verification
 
