@@ -11,5 +11,5 @@ Agent skills: coding standards and shared workflows.
 ## Install
 
 ```sh
-bunx skills@latest add mmmmaharshi/skills --skill coding-standards --agent opencode -y
+bunx skills@latest add mmmmaharshi/skills --skill coding-standards --agent universal -y
 ```
