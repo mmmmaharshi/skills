@@ -40,8 +40,8 @@ Change Pending to Done after each check passes.
 
 | Component | Status | Verification |
 | --- | --- | --- |
-| Matt Pocock skills | Pending | Skill appears in the available skills list. |
-| ast-grep skill | Pending | Skill appears in the available skills list. |
-| Twig | Pending | `git twig --version` reports 0.5.0 or newer. |
-| ast-grep prompt in `AGENTS.md` | Pending | The line is present. |
-| Coding standards line in `AGENTS.md` | Pending | The line is present. |
+| Matt Pocock skills | Done | Skill appears in the available skills list. |
+| ast-grep skill | Done | Skill appears in the available skills list. |
+| Twig | Done | `git twig --version` reports 0.5.0 or newer. |
+| ast-grep prompt in `AGENTS.md` | Done | The line is present. |
+| Coding standards line in `AGENTS.md` | Done | The line is present. |
