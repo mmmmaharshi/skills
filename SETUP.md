@@ -26,7 +26,7 @@ This step is required for every project. Complete it before the other steps.
 
 ## 4. Add the coding standards rule
 
-Add this line to `AGENTS.md`: Follow [coding-standards](https://github.com/mmmmaharshi/skills) on every code change. Install it with `bunx skills@latest add mmmmaharshi/skills --skill coding-standards --agent '*' -y`.
+Add this line to `AGENTS.md`: Follow [coding-standards](https://github.com/mmmmaharshi/skills) on every code change. Install it with `bunx skills@latest add mmmmaharshi/skills --skill coding-standards --agent opencode -y`.
 
 ## Verification
 
